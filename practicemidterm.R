@@ -41,3 +41,35 @@ nych1996 <- mutate(.data = nych1996, X_d12 = 0)
                                                         
 condition_wall <- nych1996[c("X_36a","X_37a", "X_d1", "X_d3", "X_d12")]
 rowSums(condition_wall)
+#-----------------------------------------------------------------------
+#Condition of floors (g1, g2, g3, g4, g5)
+nych1996$X_g1 <- replace(nych1996$X_g1, nych1996$X_g1==1, 2)
+nych1996$X_g1 <- replace(nych1996$X_g1, nych1996$X_g1==8, 0)
+nych1996$X_g1 <- replace(nych1996$X_g1, nych1996$X_g1==9, 0)
+nych1996$X_g1
+
+nych1996$X_g2 <- replace(nych1996$X_g2, nych1996$X_g2==1, 2)
+nych1996$X_g2 <- replace(nych1996$X_g2, nych1996$X_g2==8, 0)
+nych1996$X_g2 <- replace(nych1996$X_g2, nych1996$X_g2==9, 0)
+nych1996$X_g2
+
+nych1996$X_g3 <- replace(nych1996$X_g3, nych1996$X_g3==1, 2)
+nych1996$X_g3 <- replace(nych1996$X_g3, nych1996$X_g3==8, 0)
+nych1996$X_g3 <- replace(nych1996$X_g3, nych1996$X_g3==9, 0)
+nych1996$X_g3
+
+nych1996$X_g4 <- replace(nych1996$X_g4, nych1996$X_g4==1, 2)
+nych1996$X_g4 <- replace(nych1996$X_g4, nych1996$X_g4==8, 0)
+nych1996$X_g4 <- replace(nych1996$X_g4, nych1996$X_g4==9, 0)
+nych1996$X_g4
+
+nych1996$X_g5 <- replace(nych1996$X_g5, nych1996$X_g5==1, 2)
+nych1996$X_g5 <- replace(nych1996$X_g5, nych1996$X_g5==8, 0)
+nych1996$X_g5 <- replace(nych1996$X_g5, nych1996$X_g5==9, 0)
+nych1996$X_g5
+
+condition_floors <- nych1996[c("X_g1","X_g2", "X_g3", "X_g4", "X_g5")]
+rowSums(condition_floors)
+
+#--------------------------------------------------------------
+#Condition of Windows (e1, e2, e3, e4)
