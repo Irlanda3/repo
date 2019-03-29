@@ -73,3 +73,23 @@ rowSums(condition_floors)
 
 #--------------------------------------------------------------
 #Condition of Windows (e1, e2, e3, e4)
+
+nych1996$X_e1 <- replace(nych1996$X_e1, nych1996$X_e1==1, 2)
+nych1996$X_e1 <- replace(nych1996$X_e1, nych1996$X_e1==8, 0)
+nych1996$X_e1 <- replace(nych1996$X_e1, nych1996$X_e1==9, 0)
+nych1996$X_e1
+
+nych1996$X_e2 <- replace(nych1996$X_e2, nych1996$X_e2==1, 2)
+nych1996$X_e2 <- replace(nych1996$X_e2, nych1996$X_e2==8, 0)
+nych1996$X_e2 <- replace(nych1996$X_e2, nych1996$X_e2==9, 0)
+nych1996$X_e2
+
+nych1996$X_e3 <- replace(nych1996$X_e3, nych1996$X_e3==1, 2)
+nych1996$X_e3 <- replace(nych1996$X_e3, nych1996$X_e3==8, 0)
+nych1996$X_e3 <- replace(nych1996$X_e3, nych1996$X_e3==9, 0)
+nych1996$X_e3
+
+nych1996$X_e4 <- replace(nych1996$X_e4, nych1996$X_e4==1, 2)
+nych1996$X_e4 <- replace(nych1996$X_e4, nych1996$X_e4==8, 0)
+nych1996$X_e4 <- replace(nych1996$X_e4, nych1996$X_e4==9, 0)
+nych1996$X_e4
